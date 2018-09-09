@@ -39,6 +39,7 @@ h1{
 	color: black;
 }
 
+/*body*/
 .divlogo{
 	border: 50px solid;
 	border-color: transparent;
@@ -121,7 +122,7 @@ h1{
 	margin: 60px;
 }
 
-
+/*footer*/
 .foot{
 	background-color: #333333;
 	width: 100%;
