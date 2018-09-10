@@ -1,39 +1,19 @@
-<?php
-include ('server.php');
-?>
 <html>
 <head> 
 	<title> Register  </title>
 	<link rel="stylesheet" type="text/css" href="stylesheet/registerlogin.css">
-	<link rel="stylesheet" type="text/css" href="style1.css">
-	<link rel="icon" href="Images/logo.jpg">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	</head>
-	<body background="Images/Register.jpg">
-		<header>
-			<table class="header1">
-				<tr>
-					<td class="moviehut"><a href="index.html">Movie <br>Hut</a></td>
-					<td class="menue">Catalog</td>
-					<td class="menue"><a href="Support.html">Support</a></td>
-					<td class="menue"><a href="ContactUs.html">Contact</a></td>
-					<td class="login"><a href="Login.html"> Login</a></td>
-					<td class="reg"><a href="Register.html">Register</a></td>
-				</tr>
-			</table>
-		</header>
+</head>
 
-
- <br>
+<body background="Images/Register.jpg"> <br>
  <center> <font size="15"> <font color="white"> <font face="Tekton Pro">  Join Movie Hut </center> </font> </font> </font> 
 
 <div class="registerbody">
-<form method="post" action="Register.php">
+<form>
 	First Name <br> <input id="registerform" type="text"  name="FName"   > <br> <br>
 	Last Name <br> <input id="registerform" type="text"  name="LName"  >  <br> <br> 
-	Username <br> <input id="registerform" type="text" name="Uname" required> <br> <br>
+	Username <br> <input id="registerform" type="text" name="uname" required> <br> <br>
 	Email <br> <input id="registerform" type="text"  name="email" required > <br> <br> 
-	Password <br> <input id="registerform" type="password" name="Pword" required> <br> <br>
+	Password <br> <input id="registerform" type="password" name="pword" required> <br> <br>
 	
 	<select id="selectionbox">
 		<option value="" disabled selected> Gender </option>
@@ -43,7 +23,7 @@ include ('server.php');
 <br> <br>	
 	Contact No. <br> <input id="registerform" type="text"  name="phonenum" required > <br> <br>
 	By creating an account, you agree to our Terms & Conditions.  <br> 
-	<input type="submit" value="Create Account" class="RegButton" name="register">  </button>
+	<input type="submit" value="Create Account" class="RegButton">  </button>
 	
 </div>
 <br>

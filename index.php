@@ -1,25 +1,25 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="style1.css">
-		<link rel="icon" href="Images/logo.jpg">
+		<link rel="stylesheet" type="text/css" href="/Coursework_web/style1.css">
+		<link rel="icon" href="/Coursework_web/Images/logo.jpg">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body background="Images/comic3.jpg">
+	<body background="/Coursework_web/Images/comic3.jpg">
 		<header>
 			<table class="header1">
 				<tr>
-					<td class="moviehut"><a href="index.html">Movie <br>Hut</a></td>
-					<td class="menue">Catalog</td>
+					<td class="moviehut"><a href="/Coursework_web/index.php">Movie <br>Hut</a></td>
+					<td class="menue"><a href="/Coursework_web/cataloglog.php">Catalog</a></td>
 					<td class="menue">Support</td>
-					<td class="menue"><a href="ContactUs.html"> Contact</a></td>
-					<td class="login"><a href="Login.html"> Login</a></td>
-					<td class="reg"><a href="Register.html">Register</a></td>
+					<td class="menue"><a href="/Coursework_web/ContactUs.php"> Contact</a></td>
+					<td class="login"><a href="/Coursework_web/Login.php"> Login</a></td>
+					<td class="reg"><a href="/Coursework_web/Register.php">Register</a></td>
 				</tr>
 			</table>
 		</header>
 
 		<div class="divlogo">
-			<img src="Images/logo.jpg" class="logo">
+			<img src="/Coursework_web/Images/logo.jpg" class="logo">
 			<div class="overlay">
 				<div class="text"><h1> All THE MOVIES AT YOUR FINGERTIPS!</h1><br></div>
 			</div>
@@ -48,10 +48,10 @@
 	<table style="width:100%" class="slidestable">
 		
 		<tr>
-			<td style="width:25%" bgcolor="black"><a href=""><img src="Images/mi.jpg" style="width:100%;" class="slidesimg" ></a></td>
-			<td style="width:25%" bgcolor="black"><a href=""><img src="Images/am.jpg" style="width:100%;" class="slidesimg"></a></td>
-			<td style="width:25%" bgcolor="black"><a href=""><img src="Images/ht.jpg" style="width:100%;" class="slidesimg"></a></td>
-			<td style="width:25%" bgcolor="black"><a href=""><img src="Images/ann.jpg" style="width:100%;" class="slidesimg"></a></td>
+			<td style="width:25%" bgcolor="black"><a href=""><img src="/Coursework_web/Images/mi.jpg" style="width:100%;" class="slidesimg" ></a></td>
+			<td style="width:25%" bgcolor="black"><a href=""><img src="/Coursework_web/Images/am.jpg" style="width:100%;" class="slidesimg"></a></td>
+			<td style="width:25%" bgcolor="black"><a href=""><img src="/Coursework_web/Images/ht.jpg" style="width:100%;" class="slidesimg"></a></td>
+			<td style="width:25%" bgcolor="black"><a href=""><img src="/Coursework_web/Images/ann.jpg" style="width:100%;" class="slidesimg"></a></td>
 		</tr>
 	</table>
 </div>

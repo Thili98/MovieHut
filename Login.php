@@ -1,3 +1,6 @@
+<?php
+include ('server.php');
+?>
 <html>
 <head> 
 	<title> Log In  </title>
@@ -11,8 +14,8 @@
 	<header>
 			<table class="header1">
 				<tr>
-					<td class="moviehut"><a href="">Movie <br>Hut</a></td>
-					<td class="menue">Catalog</td>
+					<td class="moviehut"><a href="index.php">Movie <br>Hut</a></td>
+					<td class="menue"><a href="/Coursework_web/catalog.php">Catalog</a></td>
 					<td class="menue">Support</td>
 					<td class="menue">Contact</td>
 					<td class="login"><a href="Login.html"> Login</a></td>
@@ -24,13 +27,13 @@
 <h1> <center> <font color="white"> Log In to Movie Hut </center> </font> </h1>
 
 <div class="loginbody">
-<form>
+<form method="post" action="login.php">
 	Username/Email <br>  
-	<input id="loginform" type="text"  name="email"  >  <br> <br> 
+	<input id="loginform" type="text"  name="username"  >  <br> <br> 
 	Password <br> 
 	<input id="loginform" type="password" name="pword"> <br> 
 	Forget your password?  <a href="https://www.w3schools.com/">  Click here! </a> <br> <br>
-	<input  type="submit" value="Login" class="LoginButton"> </button>
+	<input  type="submit" value="Login" class="LoginButton" name="login"> 
 	
 
 </div>

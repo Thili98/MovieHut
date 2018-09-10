@@ -1,3 +1,8 @@
+
+<?php
+include ('server.php');
+?>
+
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="/Coursework_web/style1.css">
@@ -8,14 +13,14 @@
 		<header>
 			<table class="header1">
 				<tr>
-					<td class="moviehut"><a href="/Coursework_web/index.php">Movie <br>Hut</a></td>
-					<td class="menue">Catalog</td>
+					<td class="moviehut"><a href="/Coursework_web/indexlog.php">Movie <br>Hut</a></td>
+					<td class="menue"><a href="/Coursework_web/cataloglog.php">Catalog</a></td>
 					<td class="menue">Support</td>
 					<td class="menue"><a href="/Coursework_web/ContactUs.php"> Contact</a></td>
-					<td class="login"><a href="/Coursework_web/index.php?logout='1'"> Logout</a></td>
+					<td class="login"><a href="/Coursework_web/index.php?logout='1'" name="logout"> Logout</a></td>
 					
 
-					<td class="reg"><a href="/Coursework_web/Register.php">Profile</a></td> 
+					<td class="reg"><a href="/Coursework_web/profile.php">Profile</a></td> 
 				</tr>
 			</table>
 		</header>

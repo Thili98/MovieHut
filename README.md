@@ -1,2 +1,1 @@
-# MovieHut
-Web Development Coursework
+# Coursework_web

@@ -16,7 +16,7 @@
 	<div class="menubar">
 			<center>
 				<a href="index.html"> <button> Movie Hut </button> </a>
-				<button>CATALOG</button>
+				<a href="/Coursework_web/catalog.php"><button>CATALOG</button></a>
 				<a href="AboutUs.html"><button>ABOUT US</button> </a>
 				<a href="ContactUs.html"><button>CONTACT US</button> </a>
 				<a href="Support.html"><button>SUPPORT</button> </a> 
