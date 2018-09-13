@@ -1,0 +1,92 @@
+body{
+	
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div{
+	background-color: black;
+	color: white;
+	width: 75%;
+	height: 50%px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 10px;
+	opacity: 0.8;
+	text-align: left;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+span{
+	color: red;
+}
+
+form{
+	text-align: left;
+	padding:0px 350px ;
+}
+
+input{
+	border-radius: 5px;
+
+}
+
+textarea{
+	border-radius: 5px;
+}
+
+#subbutton{
+	 background-color:#5c5cd6;
+	 color:white;
+	 font-style: bold;
+	 padding:5px;
+	 height:5%;
+	 width:20%;
+	 box-shadow:10px 10px none;
+	 border-radius: 8px;
+	 border:none;
+	 cursor:pointer;
+}
+/*#sub1{
+	width: 20%;
+	height: 30px;
+	border-radius: 10px;
+	color: white;
+	background-color: #297ccc;
+}
+
+#cnctdetails{
+	text-align: left;
+	padding: 150px 250px;
+}
+
+
+
+#cnctdiv{
+	padding: 0px 0px 0px 0px;
+}
+*/
+
+#contactus{
+	padding: 10px 10px 10px 10px;
+}
+
+#cnctable{
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin: auto;
+	margin: none;
+
+}
+
+h2{
+	color: #ffff99;
+}
